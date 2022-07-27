@@ -1,0 +1,69 @@
+body{
+    background-image: url("pic.jpg");
+    border-style: double;
+    font-size: larger;
+    border-radius: 2%;
+    
+}
+h1{
+    background-color: plum;
+    color: black;
+    font-size: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: beige;
+    border-style: double;
+    opacity: 100%;
+    border-radius: 5%;
+    outline-color: gainsboro;
+    text-shadow: 2px 2px 5px rgb(83, 52,77);
+}
+h2{
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    font-kerning: normal;
+    font-stretch: expanded;
+    animation: alternate-reverse;
+    text-shadow: 2px 2px 5px rgb(83, 52,77);
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif
+    background-color: lightcyan;
+    opacity: 75%;
+    text-shadow: 2px 2px 5px rgb(83, 52,77);
+}
+p{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #73c2fb;
+    font-size: 20px;
+    opacity: 80%;
+    font-style: oblique;
+    border-radius: 10px;
+    cursor: pointer;
+    display: grid;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    margin-right: 600px;
+    margin-left: 400px;
+    border-color: black;
+    border: double;
+    
+    
+   
+}
+.button{
+    display: inline-flexbox;
+    height: 100px;
+    width: auto;
+    padding: 0px;
+    background: lavender;
+    overflow: hidden;
+    opacity: 90%;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    z-index: 500;
+    position: relative;
+    font-size: 80px;
+}
